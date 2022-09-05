@@ -16,5 +16,8 @@
 	.title {
 		text-align: center;
 		font-size: 4rem;
+		/* Prevent margin bleeding at top of page */
+		margin-block-start: 0;
+		padding-block-start: 0.83em;
 	}
 </style>
