@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ModelShowcase from '$lib/features/ModelShowcase.svelte';
 </script>
 
 <svelte:head>
@@ -9,6 +10,7 @@
 <section>
 	<div class="container">
 		<h1 class="title">Vem styr? <a href="/">D Styr</a>!</h1>
+		<ModelShowcase />
 	</div>
 </section>
 
